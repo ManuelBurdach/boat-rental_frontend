@@ -1,0 +1,20 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: var(--lightblue);
+}
+
+.nav a {
+  font-family: RobotoBold, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--grey);
+  margin-right: 1.5rem;
+}
+
+.nav .active {
+  color: var(--rosa);
+}

@@ -1,0 +1,52 @@
+.Boot {
+  background-color: var(--grey);
+  outline: 2px solid var(--turquoise);
+  outline-offset: -0.2rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 0.2rem 0.5rem;
+  box-shadow: 0 0 15px -5px black;
+  cursor: pointer;
+  color: var(--turquoise);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Boot:hover {
+  background-color: aliceblue;
+}
+.Boot div {
+  margin: 1rem;
+}
+.Boot div p:first-child {
+  color: var(--pink);
+}
+
+.Boot div p:last-child {
+  font-size: 1.5rem;
+}
+
+.Boot div button {
+  display: block;
+  margin: 0.3rem 0;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 15px -5px black;
+}
+
+.Boot div button:hover {
+  text-decoration: underline;
+}
+
+.success {
+  background-color: rgb(47, 255, 57);
+  color: black;
+}
+
+.delete {
+  background-color: rgb(224, 43, 43);
+  color: black;
+}

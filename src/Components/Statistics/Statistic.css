@@ -1,0 +1,25 @@
+.Statistic {
+  background-color: var(--grey);
+  outline: 4px solid var(--turquoise);
+  outline-offset: -0.5rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0 15px -5px black;
+  cursor: pointer;
+  color: var(--turquoise);
+}
+
+.Statistic:hover {
+  opacity: 0.8;
+}
+
+.Statistic h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.Statistic p {
+  text-align: center;
+  font-size: 6rem;
+}

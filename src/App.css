@@ -1,6 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  background-color: red;
+  padding: 5.5rem 2rem 2rem;
+  background-color: var(--blue);
 }

@@ -1,11 +1,37 @@
+@font-face {
+  font-family: "RobotoRegular"; /*Can be any text*/
+  src: local("Roboto-Regular"), url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoBold"; /*Can be any text*/
+  src: local("Roboto-Bold"), url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoThin"; /*Can be any text*/
+  src: local("Roboto-Thin"), url("./assets/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: RobotoRegular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+
+  --purple: #cdb4db;
+  --pink: #ffc8dd;
+  --rosa: #ffafcc;
+  --lightblue: #bde0fe;
+  --blue: #a2d2ff;
+  --turquoise: #7bdff2;
+  --green: #b2f7ef;
+  --grey: #eff7f6;
+  --lightpink: #f7d6e0;
+  --lightrosa: #f2b5d4;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,12 +46,21 @@
   box-sizing: border-box;
 }
 
-a {
-  font-weight: 500;
-  text-decoration: inherit;
-}
-
 body {
   min-width: 320px;
   min-height: 100vh;
+}
+
+a {
+  text-decoration: inherit;
+  background-image: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: RobotoBold, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
